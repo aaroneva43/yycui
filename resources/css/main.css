@@ -1,0 +1,174 @@
+﻿/**global style **/
+* {
+margin: 0;
+padding: 0;
+font-family: arial, 微软雅黑;
+color:#ccc;
+}
+
+body {
+	background:#111;
+}
+
+body h1,h2,h3,h4,h5,h6 {color:#eee;}
+
+h3 {margin-top:20px; font-size: 16px;}
+
+#header {
+	height : 50px;
+	padding-top:12px;
+	padding-bottom:5px;
+	background: #222;
+	border-bottom: 1px solid #666;
+}
+#header h1 {
+	width : 100%;
+	text-align:center;
+	color : #eee;
+}
+
+#header h5 {
+	width : 100%;
+	text-align:center;
+	color : #ccc;
+}
+
+#menu {
+	float: right;
+	margin-right: 10px;
+	width:180px;
+	position:absolute;
+	top : 5px;
+	right:10px;
+}
+
+#menu li {
+	list-style-type:none;
+	float:left;
+	font-size:12px;	
+	padding: 2 5;
+}
+
+#menu li a {
+	cursor:hand;
+	text-decoration:none;
+	color:#ccc;
+}
+#menu li a:hover {
+	color : #fff;
+}
+#designer {
+	position : absolute;
+	width : 300px;
+	height : 300px;
+	border : 1px solid #666;
+	left : 60px;
+	top: 68px;
+	background:#eee;
+	display:none;
+}
+
+#banner {
+	background-image :url(../img/banner_201512.jpg);
+	/* -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; */
+	
+	width : 100%;
+	height: 630px;
+	background-repeat: no-repeat;
+	background-position-x: center;
+}
+
+#intro {
+	margin:0 auto;
+	padding:25 100;
+	/* width : 100%; */
+	height : 256px;
+	
+}
+
+
+#intro #snap {
+	height: 400px;
+	width: 380px;
+	float:left;
+	background: url(../img/snap201505.jpg);
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#intro span {
+	width:220px;
+	float:left;
+	padding:0 10;
+	color:#eee;
+	font-size:13px;
+	white-space: nowrap;
+	line-height: 22px;
+}
+
+#collection {
+	padding:5px 0px 5px 100px;
+	margin:0 auto;
+}
+
+#collection .brief {
+	margin-left:20px;	
+	font-size:12px;
+	text-decoration:none;
+	color:#ccc;
+}
+
+.collection {
+	height: 310px;
+	width: 180px;
+	margin:10 10 0 0;
+	float:left;
+	
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.collection_intro {
+	
+	font-size:13px;
+	color: #afb4db;
+}
+
+
+
+#footer {
+	float:left;
+	margin-top:20px;
+	width:100%;
+	height: 30px;
+	padding-top:10px;
+	background:#222;
+}
+#footer h6{
+	text-align:center;
+	color:#eee;
+}
+
+.mask {
+	width: 100%;
+    height: 100%;
+    z-index: 1001;
+    background: #ccc;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    opacity: 0.5;
+}
